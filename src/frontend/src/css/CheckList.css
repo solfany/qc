@@ -1,0 +1,31 @@
+/* CheckList.css */
+@import "../index.css";
+
+.checklist {
+  text-align: center;
+  padding: 1rem;
+}
+
+.listBox {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 0.4rem;
+  background-color: var(--primary-color);
+  color: var(--link-color);
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.list:hover {
+  transform: scale(1.1);
+}

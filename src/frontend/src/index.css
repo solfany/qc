@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #774caf;
+  --secondary-color: #774caf;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --link-color: #ffffff;
+  --link-hover-color: #efd9ff;
+  --button-bg-color: #aa00ff;
+  --button-hover-bg-color: #5a00b3;
+  --border-color: #ccc;
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Reset and base styles */
+body {
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+/* Layout styles */
+.header,
+.footer {
+  background-color: var(--primary-color);
+  color: var(--link-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header nav ul li {
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: var(--link-color);
+}
+
+.header nav ul li a:hover {
+  color: var(--link-hover-color);
+}
+
+.main-content {
+  padding: 1rem;
+}
+
+/* Utility classes */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.p-1 {
+  padding: 1rem;
+}

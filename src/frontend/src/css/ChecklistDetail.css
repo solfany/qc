@@ -1,0 +1,78 @@
+/* ChecklistDetail.css */
+
+@import "../index.css";
+
+.checklist-detail {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--box-shadow-color);
+  background-color: var(--link-color);
+}
+
+.checklist-detail h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.checklist-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checklist-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.checklist-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: var(--button-bg-color);
+  color: var(--link-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checklist-form button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.checklist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.checklist-table th,
+.checklist-table td {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.checklist-table th {
+  background-color: var(--secondary-color);
+  color: var(--link-color);
+}
+
+.checklist-table select {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}

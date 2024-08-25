@@ -1,0 +1,30 @@
+/* MainPage.css */
+
+.dashboard {
+  padding: 1rem;
+}
+
+.chart {
+  margin-bottom: 2rem;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}

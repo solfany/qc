@@ -1,0 +1,77 @@
+/* Login.css */
+
+@import "../index.css";
+
+.login-container {
+  min-width: 350px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--box-shadow-color);
+  background-color: var(--link-color);
+
+  /* 수직 중앙 정렬 */
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+
+  /* 수평 중앙 정렬 */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.login-container div {
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-bg-color);
+  border: none;
+  color: var(--link-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-container button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
